@@ -1,3 +1,6 @@
+/* @override 
+	http://ramo.one/styles.css */
+
 
 body {
     font-family: 'Arial', sans-serif;
@@ -148,11 +151,23 @@ img {
 #intro {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: top;
 }
 
 #intro div {
     flex: 3; margin:-50px 0 0 545px;
+}
+
+#intro .three {
+	flex: 3; margin: 0!important;
+}
+
+#intro .two {
+	flex: 2; margin: 0!important;
+}
+
+#intro .one {
+	flex: 1; margin: 0!important;
 }
 
 #ramo-loves-design {
@@ -180,7 +195,7 @@ examples-entry h2 {
     padding-left: 2em;
 }
 
-#get-in-touch h1 {
+#get-in-touch h1, #get-in-touch p {
 	text-align: center;
 }
 h1 {
@@ -218,9 +233,14 @@ body {
 
 #ramo-main-pic {
     z-index: 2;
-    position: absolute;
+    position: absolute; margin-top: -350px;
 }
 
 .examples-details h2, .examples-details p {
 	margin: 0!important;;
 }
+
+#toolkit-main-pic {
+	margin-top: -150px;
+}
+
